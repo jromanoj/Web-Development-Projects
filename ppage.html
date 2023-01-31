@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" text/css>
+
+
+<style type="text/css"> 
+
+
+header{
+    display: flex;
+    background-color: #f0f5f9;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+    padding: 0px 5%;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2) ;
+}
+
+.nav-links {
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #1e2022;
+}
+
+body{
+    background-color: #f0f5f9;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+h1 {
+    float: left;
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    background-color: #f0f5f9;
+    color: #1e2022;
+    padding: 0px 5%;
+    
+}
+
+
+
+.logo-container {
+    background-color: #f0f5f9;
+    flex: 2;
+}
+
+nav {
+ flex:1;
+}
+
+.background {
+    height: 560px;
+    position: absolute;
+    bottom: 40px;
+    left: 70%;
+    transform: translateX(-70%);
+}
+
+#showcase {
+    min-height: 800px;
+    background: url('https://images.pexels.com/photos/3815729/pexels-photo-3815729.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    color: #f0f5f9;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2) ;
+}
+
+#showcase h1 {
+   
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+.showcase-container{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2) ;
+}
+
+.about-container{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2) ;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+    ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #f0f5f9;
+
+		}
+
+		li{
+			float: left;
+		}
+	li a, .dropbtn {
+			display: block;
+			color: #1e2022;
+			text-align: center;
+			padding: 20px;
+			text-decoration: none;
+            font-size: 22px;
+		}
+
+		/*Hover style*/
+		li a:hover , .dropbtn, .dropdown:hover {
+			background-color: #c9d6df;
+		}
+
+		li.dropdown {
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f0f5f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		}
+
+		.dropdown-content a {
+			color: #1e2022;
+			padding: 12px;
+			text-decoration: none;
+			display: block;
+			text-align: left;
+			background-color: #f0f5f9;
+
+		}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+
+        .current a{
+            text-decoration: underline;
+          
+        }
+    
+     footer{
+        padding: 20px;
+        margin-top: 20px;
+        color: #1e2022;
+        background-color: #52616b;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.2) ;
+    }
+
+</style>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+         
+            <p1><h1>Jason Romano</h1></p1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li class="current"><a class="nav-link" href="ppage.html">Home</a></li>
+                <li class="dropdown"><a class="nav-link" href="AboutMe.html">About Me</a>
+                    <div class="dropdown-content">
+                        <a href="AboutMe.html">Portfiolio</a>
+                        <a href="AboutMe.html">Resume</a>
+                    </div>
+                <li><a class="nav-link" href="contactme.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+    
+    </header>
+
+<br>
+    <section id="showcase">
+        <div class="showcase-container">
+        <h2>Jason Romano</h2>
+        <p>B.S. in Information Technology seeking a full-time internship or role in Information Technology. Recently completed the Google IT Support Professional Certificate - 
+            an IT support program that covers troubleshooting, customer service in the IT field, networking services, operating systems (Windows/Linux), system administration, and cybersecurity. I am heavily
+        interested in front-end web development and front-end application development. </p>
+        </div>
+    </section>
+<br>
+
+
+
+</body>
+
+<footer>
+    <p>Jason Romano &copy; 2020</p>
+</footer>
+</html>

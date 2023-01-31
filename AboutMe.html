@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" text/css>
+        
+        
+        <style type="text/css"> 
+        
+        
+        header{
+            display: flex;
+            background-color: #f0f5f9;
+            width: 90%;
+            height: 10vh;
+            margin: auto;
+            align-items: center;
+            padding: 0px 5%;
+            font-family: 'Oswald', sans-serif;
+            box-shadow: 2px 2px 12px rgba(0,0,0,0.2) ;
+        }
+        
+        .nav-links {
+            justify-content: space-around;
+            display: flex;
+            list-style: none;
+            font-family: 'Oswald', sans-serif;
+        }
+        
+        .nav-link{
+            text-decoration: none;
+            font-family: 'Oswald', sans-serif;
+            color:#1e2022;
+        }
+        
+        body{
+            background-color: #f0f5f9;
+            font-family: 'Oswald', sans-serif;
+        }
+        
+        
+        h1 {
+            float: left;
+            display: flex;
+            font-family: 'Oswald', sans-serif;
+            background-color: #f0f5f9;
+            color: #1e2022;
+            padding: 0px 5%;
+            
+        }
+        
+        h2{
+            float: middle;
+            display: flex;
+            font-family: 'Oswald', sans-serif;
+            color: #1e2022;
+            text-align: center;
+        }
+        
+        
+        .logo-container {
+            background-color: #f0f5f9;
+            flex: 2;
+        }
+        
+        nav {
+         flex:1;
+        }
+        
+        .background {
+            height: 560px;
+            position: absolute;
+            bottom: 40px;
+            left: 70%;
+            transform: translateX(-70%);
+        }
+       
+
+    ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #f0f5f9;
+
+		}
+
+		li{
+			float: left;
+		}
+	li a, .dropbtn {
+			display: block;
+			color: #1e2022;
+			text-align: center;
+			padding: 20px;
+			text-decoration: none;
+            font-size: 22px;
+		}
+
+		/*Hover style*/
+		li a:hover , .dropbtn, .dropdown:hover {
+			background-color: #c9d6df;
+		}
+
+		li.dropdown {
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f0f5f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		}
+
+		.dropdown-content a {
+			color: #1e2022;
+			padding: 12px;
+			text-decoration: none;
+			display: block;
+			text-align: left;
+			background-color: #f0f5f9;
+
+		}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+
+        .current a{
+            text-decoration: underline;
+          
+        }
+        
+        .portfolio-preview{
+            width: auto;
+            height: auto;
+            background-image: url(pp.jpg);
+        }
+    
+     footer{
+        padding: 20px;
+        margin-top: 20px;
+        color: #1e2022;
+        background-color: #52616b;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.2) ;
+    }
+
+    .about-container{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2) ;
+}
+   
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <p1><h1>Jason Romano</h1></p1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="ppage.html">Home</a></li>
+                <li class="current dropdown"><a class="nav-link" href="AboutMe.html">About Me</a>
+                    <div class="dropdown-content">
+                        <a href="AboutMe.html">Portfiolio</a>
+                        <a href="AboutMe.html">Resume</a>
+                    </div>
+                <li><a class="nav-link" href="contactme.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<br>
+<div class="about-container">
+<h2><a class="nav-link" href="https://www.linkedin.com/in/1jason-romano/"> LinkedIn </h2></a>
+<a class="nav-link" href="https://www.linkedin.com/in/1jason-romano/"><img src="linkedpreview.jpg" alt="linkedinpreview"></a>
+</div>
+<br>
+
+<div class="about-container">
+<h2>Resume</h2>
+<img src="resume1.jpg" alt="resumepicture">
+</div>
+<br>
+
+<div class="about-container">
+<h2><a class="nav-link" href="https://jayrawmedia11.myportfolio.com/">Photography Portfolio</a></h2>
+</div>
+<br>
+
+<a class="nav-link" href="https://jayrawmedia11.myportfolio.com/"><img src="portpreview.jpg" alt="portfolio-preview"></a> 
+</div>
+<br>
+
+<h2></h2>
+<br>
+<br>
+
+
+
+
+
+
+</body>
+
+
+
+<footer>
+    <p>Jason Romano &copy; 2020</p>
+</footer>
+</html>
